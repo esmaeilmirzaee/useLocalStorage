@@ -2,10 +2,14 @@
   "name": "react",
   "version": "1.0.0",
   "description": "React example starter project",
+<<<<<<< HEAD
   "keywords": [
     "react",
     "starter"
   ],
+=======
+  "keywords": ["react", "starter"],
+>>>>>>> d6c494128f5c30826a6b6185240938499aa958e0
   "main": "src/index.js",
   "dependencies": {
     "react": "17.0.0",
@@ -21,10 +25,14 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+<<<<<<< HEAD
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
   ]
+=======
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+>>>>>>> d6c494128f5c30826a6b6185240938499aa958e0
 }
