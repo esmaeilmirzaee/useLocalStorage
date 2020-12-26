@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import useLocalStorage from "./useLocalStorage";
 
+import useFetch from './useFetch';
+
 const App = ({ max, step = 1}) => {
   const [count, setCount] = useLocalStorage(0, "count");
   console.log(useLocalStorage(0, 'count'));
@@ -25,6 +27,9 @@ const App = ({ max, step = 1}) => {
     document.title = `Counter: ${count}`;
   }, [count]);
 
+  const [response, loading, error] = useFetch('http://intergalacticdb.me/api/characters/Chewbacca');
+          const characters = (response && response.characters) || [];
+
   return (
     <div className="ui container">
       {console.log(count)}
@@ -42,6 +47,10 @@ const App = ({ max, step = 1}) => {
             -
           </button>
         </div>
+      </div>
+      <div className='ui placeholder piled segment'>
+          
+          {console.log(characters)}
       </div>
     </div>
   );

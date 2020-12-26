@@ -1,0 +1,65 @@
+Arguments: 
+  /home/gitpod/.nvm/versions/node/v12.20.0/bin/node /home/gitpod/.nvm/versions/node/v12.20.0/bin/yarn install
+
+PATH: 
+  /home/gitpod/.nvm/versions/node/v12.20.0/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/home/gitpod/.rvm/gems/ruby-2.6.6/bin:/home/gitpod/.rvm/gems/ruby-2.6.6@global/bin:/home/gitpod/.rvm/rubies/ruby-2.6.6/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/home/gitpod/.pyenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.pyenv/bin:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/home/gitpod/.nvm/versions/node/v12.20.0/bin:/home/gitpod/.cargo/bin:/home/gitpod/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.20.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /workspace/useLocalStorage/package.json: Unexpected token < in JSON at position 486
+      at JSON.parse (<anonymous>)
+      at /home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/gitpod/.nvm/versions/node/v12.20.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "react",
+    "version": "1.0.0",
+    "description": "React example starter project",
+    "keywords": ["react", "starter"],
+    "main": "src/index.js",
+    "dependencies": {
+      "react": "17.0.0",
+      "react-dom": "17.0.0",
+      "react-scripts": "3.4.3"
+    },
+    "devDependencies": {
+      "typescript": "3.8.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+  <<<<<<< HEAD
+  <<<<<<< HEAD
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  =======
+    "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  >>>>>>> d6c494128f5c30826a6b6185240938499aa958e0
+  =======
+    "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  >>>>>>> 9d63adaede95643e7d74e29cb5513c78d8f36185
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
