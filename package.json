@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "React example starter project",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "keywords": [
     "react",
     "starter"
@@ -10,6 +11,9 @@
 =======
   "keywords": ["react", "starter"],
 >>>>>>> d6c494128f5c30826a6b6185240938499aa958e0
+=======
+  "keywords": ["react", "starter"],
+>>>>>>> 9d63adaede95643e7d74e29cb5513c78d8f36185
   "main": "src/index.js",
   "dependencies": {
     "react": "17.0.0",
@@ -26,6 +30,7 @@
     "eject": "react-scripts eject"
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -35,4 +40,7 @@
 =======
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 >>>>>>> d6c494128f5c30826a6b6185240938499aa958e0
+=======
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+>>>>>>> 9d63adaede95643e7d74e29cb5513c78d8f36185
 }
